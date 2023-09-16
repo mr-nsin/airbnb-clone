@@ -9,7 +9,7 @@ export default function App(){
   const cards = Data.map(obj => {
     return <Card 
         key={obj.id}
-        item={obj}/>
+        {...obj}/>
   })
   return (
       <div>
