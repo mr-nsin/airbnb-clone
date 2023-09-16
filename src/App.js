@@ -14,7 +14,8 @@ export default function App(){
         reviewCount={obj.stats.reviewCount}
         country={obj.location}
         title={obj.title}
-        price={obj.price}/>
+        price={obj.price}
+        openSpots={obj.openSpots}/>
   })
   return (
       <div>
